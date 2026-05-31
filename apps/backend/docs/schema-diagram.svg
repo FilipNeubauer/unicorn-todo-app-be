@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200" width="500" height="200">
+  <!-- Habit box -->
+  <rect x="60" y="60" width="120" height="80" rx="8" ry="8" fill="#FFF3C4" stroke="#E2B93B" stroke-width="2"/>
+  <rect x="60" y="60" width="120" height="28" rx="8" ry="8" fill="#E2B93B"/>
+  <rect x="60" y="80" width="120" height="8" fill="#E2B93B"/>
+  <text x="120" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">Habit</text>
+  <text x="75" y="105" font-family="monospace" font-size="10" fill="#333">id: uuid</text>
+  <text x="75" y="118" font-family="monospace" font-size="10" fill="#333">name: string</text>
+  <text x="75" y="131" font-family="monospace" font-size="10" fill="#333">frequency: enum</text>
+
+  <!-- Arrow -->
+  <line x1="180" y1="100" x2="300" y2="100" stroke="#666" stroke-width="2"/>
+  <polygon points="300,95 310,100 300,105" fill="#666"/>
+  <text x="245" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">1:N</text>
+
+  <!-- HabitRecord box -->
+  <rect x="310" y="60" width="130" height="80" rx="8" ry="8" fill="#C4E1FF" stroke="#4A90D9" stroke-width="2"/>
+  <rect x="310" y="60" width="130" height="28" rx="8" ry="8" fill="#4A90D9"/>
+  <rect x="310" y="80" width="130" height="8" fill="#4A90D9"/>
+  <text x="375" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">HabitRecord</text>
+  <text x="325" y="105" font-family="monospace" font-size="10" fill="#333">id: uuid</text>
+  <text x="325" y="118" font-family="monospace" font-size="10" fill="#333">habitId: uuid (FK)</text>
+  <text x="325" y="131" font-family="monospace" font-size="10" fill="#333">date: date</text>
+</svg>
